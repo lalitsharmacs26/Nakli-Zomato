@@ -51,6 +51,7 @@
         }
 
         .nav a:hover {
+            color: red;
             /* background-color: blue; */
             transform: scale(1.05);
             box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
@@ -150,37 +151,97 @@
             right: 0;
             bottom: 45px;
         }
-        
+
         .img img {
             width: 500px;
             height: auto;
         }
-        
+
         .img2 {
             position: absolute;
             display: flex;
             bottom: 25px;
             left: 0;
         }
-        
+
         .img2 .img {
             width: 0px;
             height: auto;
         }
-        
-        .img3{
+
+        .img3 {
             position: absolute;
             display: flex;
             top: 600px;
             left: 400px;
-            
-           
+
+
         }
+
         .img3 img {
             width: 700px;
             height: auto;
         }
 
+        .footer {
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 50px 8% 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer-logo {
+            color: #e23744;
+            font-size: 45px;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 35px;
+        }
+
+        .footer-links div {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links h3 {
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .footer-links a {
+            color: #696969;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            color: #e23744;
+        }
+
+        .footer hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .copyright {
+            text-align: center;
+            color: #696969;
+            font-size: 13px;
+        }
     </style>
 </head>
 
@@ -235,7 +296,50 @@
             <img src="hmm.png">
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <h2 class="footer-logo">zomato</h2>
+
+                <div class="footer-links">
+                    <div>
+                        <h3>ABOUT ZOMATO</h3>
+                        <a href="#">Who We Are</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Work With Us</a>
+                        <a href="#">Investor Relations</a>
+                    </div>
+
+                    <div>
+                        <h3>FOR RESTAURANTS</h3>
+                        <a href="#">Partner With Us</a>
+                        <a href="#">Apps For You</a>
+                    </div>
+
+                    <div>
+                        <h3>LEARN MORE</h3>
+                        <a href="#">Privacy</a>
+                        <a href="#">Security</a>
+                        <a href="#">Terms</a>
+                    </div>
+
+                    <div>
+                        <h3>CONTACT US</h3>
+                        <a href="mailto:contact@example.com">Email Us</a>
+                        <a href="#">Help & Support</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p class="copyright">
+                    © 2026 Zomato Clone | Made with ❤️ by Lalit
+                </p>
+
+            </div>
+        </footer>
+    </footer>
 </body>
 
 </html>
