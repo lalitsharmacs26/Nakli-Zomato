@@ -117,17 +117,67 @@
             }
         }
 
-        #next-section{
+        #next-section {
             text-align: center;
             color: red;
             font-size: 50px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        .big{
+
+        .big {
             text-align: center;
             font-size: x-large;
             color: darkgray;
         }
+
+
+        .main2 {
+            /* background-image: url("hmm.png"); */
+            background-repeat: no-repeat;
+            background-position: left top;
+            height: 805px;
+            position: relative;
+
+        }
+
+        .img {
+            position: absolute;
+            display: flex;
+            top: 0;
+            right: 0;
+            bottom: 45px;
+        }
+        
+        .img img {
+            width: 500px;
+            height: auto;
+        }
+        
+        .img2 {
+            position: absolute;
+            display: flex;
+            bottom: 25px;
+            left: 0;
+        }
+        
+        .img2 .img {
+            width: 0px;
+            height: auto;
+        }
+        
+        .img3{
+            position: absolute;
+            display: flex;
+            top: 600px;
+            left: 400px;
+            
+           
+        }
+        .img3 img {
+            width: 700px;
+            height: auto;
+        }
+
     </style>
 </head>
 
@@ -162,15 +212,24 @@
             <a href="">↓</a>
         </div>
     </main>
-    <main>
+    <main class="main2">
         <section id="next-section">
             <h2>Better food for</h2>
             <p>more people</p> <br>
         </section>
         <div class="big">
-        <big>For over a decade, we’ve enabled our</big><br>
-        <big>customers to discover new tastes,</big><br> 
-        <big> delivered right to their doorstep</big>
+            <big>For over a decade, we’ve enabled our</big><br>
+            <big>customers to discover new tastes,</big><br>
+            <big> delivered right to their doorstep</big>
+        </div>
+        <div class="img">
+            <img src="im.png">
+        </div>
+        <div class="img2">
+            <img src="im2.png">
+        </div>
+        <div class="img3">
+            <img src="hmm.png">
         </div>
     </main>
     <footer></footer>
