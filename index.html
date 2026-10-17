@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main {
+            background-image: url("zomato.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 900px;
+        }
+
+        .zomato {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-left: 2.25rem;
+            padding-right: 2.25rem;
+            margin-bottom: 2.25rem;
+            margin-top: 10.25rem;
+            text-align: center;
+            color: white;
+            font-size: 55px;
+        }
+
+        .kuch {
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            gap: 30px;
+            padding: 0px 5px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav a:hover {
+            background-color: blue;
+        }
+
+
+        .playstore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 74px;
+            background-color: black;
+            border: 2px solid #888;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 20px auto;
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 12px;
+
+        }
+
+        .playstore a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .playstore img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .playstore:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+        }
+
+        .scroll {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        .scroll a {
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            display: inline-block;
+            animation: bounce 1.2s infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+        }
+
+        #next-section{
+            text-align: center;
+            color: red;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .big{
+            text-align: center;
+            font-size: x-large;
+            color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main class="main">
+        <nav class="nav">
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About Us">About Us</a></li>
+                <li><a href="Contact Us">Contact Us</a></li>
+                <li><a href="Learn More">Learn More</a></li>
+            </ul>
+        </nav>
+        <div class="zomato">
+            <big>Zomato</big> <br>
+            <big>India’s #1</big> <br>
+            <big>food delivery app</big> <br>
+        </div>
+        <div class="kuch">
+            Experience fast & easy online orderin
+            <br>
+            on the Zomato app
+        </div>
+        <div class="playstore">
+            <a href="https://playstore.com"><img src="playstore.png" alt=""></a>
+        </div>
+
+        <div class="scroll">
+            <a href="#next-section">Scroll-down</a>
+            <a href="">↓</a>
+        </div>
+    </main>
+    <main>
+        <section id="next-section">
+            <h2>Better food for</h2>
+            <p>more people</p> <br>
+        </section>
+        <div class="big">
+        <big>For over a decade, we’ve enabled our</big><br>
+        <big>customers to discover new tastes,</big><br> 
+        <big> delivered right to their doorstep</big>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
