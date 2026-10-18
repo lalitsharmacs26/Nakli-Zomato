@@ -242,6 +242,254 @@
             color: #696969;
             font-size: 13px;
         }
+
+
+
+        @media screen and (max-width: 900px) {
+
+            .main {
+                background-position: center top;
+                background-size: contain;
+                height: 750px;
+            }
+
+            .nav ul {
+                gap: 20px;
+                padding: 0 15px;
+                flex-wrap: wrap;
+            }
+
+            .zomato {
+                font-size: 48px;
+                margin-top: 8rem;
+            }
+
+            .kuch {
+                font-size: 22px;
+                padding: 0 15px;
+            }
+
+            #next-section {
+                font-size: 42px;
+            }
+
+            .big {
+                font-size: 21px;
+                padding: 0 15px;
+            }
+
+            .img img {
+                width: 38vw;
+                max-width: 400px;
+            }
+
+            .img3 {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .img3 img {
+                width: 60vw;
+                max-width: 600px;
+            }
+
+            .footer {
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        }
+
+
+
+        @media screen and (max-width: 600px) {
+
+
+            .main {
+                height: 700px;
+                min-height: 0;
+                background-size: cover;
+                background-position: center top;
+            }
+
+
+            .nav ul {
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 14px 18px;
+                padding: 0 10px;
+            }
+
+            .nav a {
+                font-size: 14px;
+            }
+
+            .zomato {
+                font-size: clamp(32px, 9vw, 44px);
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 125px;
+                margin-bottom: 25px;
+            }
+
+
+            .kuch {
+                font-size: 17px;
+                line-height: 1.6;
+                padding: 0 15px;
+            }
+
+            .playstore {
+                width: 170px;
+                height: 63px;
+                max-width: 90%;
+            }
+
+            .playstore img {
+                width: 100%;
+                height: 100%;
+            }
+
+
+            .scroll {
+                font-size: 17px;
+                padding-top: 20px;
+            }
+
+            .scroll a {
+                font-size: 22px;
+            }
+
+
+            .main2 {
+                height: 720px;
+                position: relative;
+                overflow: hidden;
+                padding-top: 30px;
+            }
+
+            #next-section {
+                font-size: clamp(28px, 7vw, 36px);
+                padding: 0 10px;
+            }
+
+            .big {
+                font-size: 16px;
+                line-height: 1.7;
+                padding: 0 10px;
+            }
+
+            .img {
+                top: 245px;
+                right: 0;
+                bottom: auto;
+            }
+
+            .img img {
+                width: 42vw;
+                max-width: 240px;
+                height: auto;
+            }
+
+
+            .img2 {
+                bottom: 25px;
+                left: 0;
+            }
+
+
+            .img2 img {
+                display: block;
+                width: 30vw;
+                max-width: 170px;
+                height: auto;
+            }
+
+            .img3 {
+                top: auto;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .img3 img {
+                display: block;
+                width: 70vw;
+                max-width: 380px;
+                height: auto;
+            }
+
+            .footer {
+                padding: 35px 6% 20px;
+            }
+
+            .footer-logo {
+                font-size: 36px;
+                margin-bottom: 25px;
+            }
+
+            .footer-links {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 30px 18px;
+            }
+
+            .footer-links div {
+                min-width: 0;
+                overflow-wrap: anywhere;
+            }
+
+            .footer-links h3 {
+                font-size: 12px;
+                line-height: 1.5;
+            }
+
+            .footer-links a {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+
+            .copyright {
+                font-size: 12px;
+                line-height: 1.7;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+
+            .main {
+                height: 650px;
+            }
+
+            .nav ul {
+                gap: 12px;
+            }
+
+            .nav a {
+                font-size: 12px;
+            }
+
+            .zomato {
+                margin-top: 110px;
+                font-size: 32px;
+            }
+
+            .kuch {
+                font-size: 15px;
+            }
+
+            .main2 {
+                height: 680px;
+            }
+
+            .big {
+                font-size: 14px;
+            }
+
+            .footer-links {
+                gap: 25px 12px;
+            }
+        }
     </style>
 </head>
 
